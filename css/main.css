@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  width: 80px;
+  height: 80px;
+}
+
+button{
+  border: none;
+  background: none;
+  color: aliceblue;
+  transition: transform .4s ease;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px;
+}
+
+.columns{
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  align-items: center;
+}
+
+.first-column,
+.second-column,
+.third-column,
+.fourth-column,
+.fifth-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.first-column{
+  background-color: #9500ff;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.second-column{
+  background-color: #0091ff;
+}
+
+.third-column{
+  background-color: #00ab1a;
+}
+
+.fourth-column{
+  background-color: #ff7700;
+}
+
+.fifth-column{
+  /* background-color: #f2ff00; */
+  background-color: #f200ff;
+}
+
+.column-list__item{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fat{
+  width: 70px;
+  height: 120px;
+}
+
+.buttons__list{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: center;
+  gap: 15px;
+}
+.button {
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:active{
+  transform: scale(.96);
+}
+
+.button-1{
+  background-color: #9500ff;
+  font-size: 28px;
+}
+
+.button-2{
+  background-color: #0091ff;
+  font-size: 28px;
+}
+
+.button-3{
+  background-color: #00ab1a;
+  font-size: 28px;
+}
+
+.button-4{
+  background-color: #ff7700;
+  font-size: 28px;
+}
+
+.button-5{
+  background-color: #f200ff;
+  font-size: 28px;
+}
+
+.main{
+  margin-top: 30px;
+  padding: 50px;
+  background-color: #ff0000;
+}
+
+.reset{
+  margin-left: 20px;
+  padding: 50px;
+  background-color: #47bc1c;
+}
+
+.buttons{
+  text-align: center;
+  background-color: #ffee00;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
